@@ -1,0 +1,114 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEistMPTqvlNedJiVjfq6UleYMDFD-K0ay7PTkhSUg8CWKqFugfJI7qNi3CBuLra0FD_4EdAvPtMm0lx_75haSrH29QVb_tVCCK786mobvL8rgBgv0tAI3QL0Skcepw2Mghj0w1PrfREF7rbfgq1Sw0ez4UG9aT5crvllDgV8t7311hZoh7LQju5ERU6uw/w1600/treehouse-ai-1302023.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    
+}
+.container{
+    background-color: rgb(35, 35, 35);
+    width: 50%;
+    height: 70vh;
+  border-radius: 16px;
+  box-shadow: 10px 10px 80px #1a4c1a;
+}
+.grid{
+    gap: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2rem;
+}
+h1{
+    font-size: 8rem;
+}
+.searchBox{
+    position: relative;
+}
+.searchBox input{
+    width: 100%;
+    padding: 7px;
+    font-size: larger;
+    border-radius: 16px;
+}
+.searchBox button{
+      position: absolute;/*(air ma rakhna,(hawa ma rakhna))  */
+      padding: 10px;
+     font-size: larger;
+     background-color: transparent;
+     border: none;
+     right: 0;
+     border-radius: 16px;
+}
+.searchBox button:hover{
+    cursor: pointer;
+    background-color: rgb(57, 57, 57);
+} 
+
+/*  */
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  ul li {
+    font-size: larger;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width:720px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    
+  }
+  @media (max-width:900px) and (min-width:577px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    
+    
+  }
